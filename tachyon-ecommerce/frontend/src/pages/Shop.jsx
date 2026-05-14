@@ -8,7 +8,7 @@ export default function Shop({ updateCartCount }) {
   const [addedItems, setAddedItems] = useState({})
 
   useEffect(() => {
-    fetch('http://localhost:8000/api/products')
+    fetch('https://mini-ecommerce-xgqk.vercel.app/api/products')
       .then(res => {
         if (!res.ok) throw new Error('Network response was not ok')
         return res.json()
@@ -25,7 +25,7 @@ export default function Shop({ updateCartCount }) {
 
   const handleAddToCart = async (product) => {
     try {
-      const res = await fetch('http://localhost:8000/api/cart', {
+      const res = await fetch('https://mini-ecommerce-xgqk.vercel.app/api/cart', {, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
