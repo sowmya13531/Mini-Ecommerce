@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Quantum Communicator",
+    "price": 299.99,
+    "description": "Instantaneous communication across galaxies. No latency.",
+    "category": "Communication",
+    "image": "https://placehold.co/400x300/0a0a1a/00ffcc?text=Quantum+Communicator"
+  },
+  {
+    "id": 2,
+    "name": "Hyper-Drive Engine V2",
+    "price": 4500.00,
+    "description": "Compact FTL engine for personal spacecraft. Easily installed.",
+    "category": "Vehicles",
+    "image": "https://placehold.co/400x300/0a0a1a/ff00cc?text=Hyper-Drive+Engine"
+  },
+  {
+    "id": 3,
+    "name": "Neuro-Link Interface",
+    "price": 850.50,
+    "description": "Direct brain-to-computer connection for seamless interaction.",
+    "category": "Cybernetics",
+    "image": "https://placehold.co/400x300/0a0a1a/00ccff?text=Neuro-Link"
+  },
+  {
+    "id": 4,
+    "name": "Plasma Blade",
+    "price": 1200.00,
+    "description": "Self-containing plasma field for cutting through anything.",
+    "category": "Tools",
+    "image": "https://placehold.co/400x300/0a0a1a/ff3300?text=Plasma+Blade"
+  },
+  {
+    "id": 5,
+    "name": "Tachyon Field Generator",
+    "price": 8999.99,
+    "description": "Manipulate local time fields. Strictly for scientific use.",
+    "category": "Tools",
+    "image": "https://placehold.co/400x300/0a0a1a/ffff00?text=Tachyon+Field"
+  },
+  {
+    "id": 6,
+    "name": "Holo-Display Emitter",
+    "price": 150.00,
+    "description": "Project interactive 3D holograms from your wrist.",
+    "category": "Communication",
+    "image": "https://placehold.co/400x300/0a0a1a/00ff00?text=Holo-Display"
+  }
+]
