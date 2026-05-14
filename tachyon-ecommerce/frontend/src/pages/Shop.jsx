@@ -25,7 +25,7 @@ export default function Shop({ updateCartCount }) {
 
   const handleAddToCart = async (product) => {
     try {
-      const res = await fetch('https://mini-ecommerce-xgqk.vercel.app/api/cart', {, {
+      const res = await fetch('https://mini-ecommerce-xgqk.vercel.app/api/cart',  {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
